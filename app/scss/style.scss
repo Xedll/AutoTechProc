@@ -1,0 +1,22 @@
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+}
+
+.__container {
+   max-width: 1160px;
+   margin: 0 auto;
+}
+
+.image {
+   width: 100%;
+}
+.svg-analisSys-dims { width: 68px; height: 58px; }
+.svg-autoSys-dims { width: 70px; height: 70px; }
+.svg-dispetSys-dims { width: 68px; height: 60px; }
+.svg-footerMail-dims { width: 20px; height: 20px; }
+.svg-footerPhone-dims { width: 20px; height: 20px; }
+.svg-mail-dims { width: 20px; height: 20px; }
+.svg-phone-dims { width: 20px; height: 20px; }
+.svg-prod-dims { width: 70px; height: 70px; }
