@@ -115,7 +115,7 @@ function building() {
       '!app/images/stack',
       'app/images/sprite.svg',
       'app/fonts/dist/*.*',
-      'app/**/*.html',
+      'app/*.html',
    ], { base: 'app' })
       .pipe(dest('dist'))
 }
