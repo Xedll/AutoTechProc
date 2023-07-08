@@ -8,7 +8,9 @@
    max-width: 1160px;
    margin: 0 auto;
 }
-
+main {
+   flex: 1 1 100%;
+}
 .image {
    width: 100%;
 }

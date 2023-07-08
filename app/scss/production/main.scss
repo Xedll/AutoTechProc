@@ -1,0 +1,49 @@
+.prodMain {
+   background: #F6F6F6;
+   padding: 43px 0 71px 0;
+   &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   &__content {
+      margin-left: 101px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      max-width: 50%;
+   }
+
+   &__title {
+      color: #383838;
+font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 30px;
+line-height: normal;
+   }
+
+   &__subtitle {
+      color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 100px;
+display: flex;
+& span {
+   display: block;
+   margin-right: 25px;
+   width:2px;
+   background: #0C4C8A;
+}
+   }
+
+   &__img {
+      margin-right: 233px;
+   }
+}
