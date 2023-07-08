@@ -101,7 +101,7 @@ function watching() {
 
 
 function cleanDist() {
-   return src('dist')
+   return src('docs')
       .pipe(clean())
 }
 
@@ -117,7 +117,7 @@ function building() {
       'app/fonts/dist/*.*',
       'app/*.html',
    ], { base: 'app' })
-      .pipe(dest('dist'))
+      .pipe(dest('docs'))
 }
 
 
