@@ -1,0 +1,414 @@
+@media (max-width:1382px) {  
+   .prodList {
+      &__grid {
+         grid-template-columns: repeat(2,1fr);
+      }
+      &__img {
+         width: 100%;
+         height: 100%;
+         max-width: 510px;
+         max-height: 340px;
+      }
+   }
+   .systems {
+      &__grid {
+         gap: 50px;
+         grid-template-columns: repeat();
+      }
+      &__item {
+         max-width: 75%;
+
+      }
+      &__line {
+         margin-top: 15px;
+         margin-bottom: 20px;
+      }
+   }
+
+}
+
+
+@media(max-width:992px) {
+   .contacts {
+      &__head {
+         margin-left: 50px;
+         margin-bottom: 26px;
+      }
+      &__grid {
+         margin-bottom: 63px;
+      }
+   }
+   .docs {
+      &__flex {
+         grid-template-columns: repeat(1,1fr);
+      }
+   }
+   .prodMain {
+      &__img {
+         margin-right: 0;
+      }
+      &__content {
+         margin-left: 0;
+         max-width: 70%;
+      }
+      &__container {
+         padding: 0 100px;
+      }
+      &__subtitle {
+         & p {
+            font-size: 16px;
+         }
+      }
+   }
+   .systems {
+      &__title {
+         max-width: 100%;
+         text-align: center;
+      }
+      &__grid {
+         grid-template-columns: repeat(1,1fr);
+         gap: 50px 0;
+         place-items: center;
+      }
+      &__theme {
+         font-size: 26px;
+      }
+      &__text{
+         font-size: 20px;
+      }
+   }
+   .about {
+      &__container {
+         flex-direction: column;
+         align-items: center;
+      }
+      &__content {
+         margin-right: 0;
+         max-width: 100%;
+         margin-bottom: 40px;
+      }
+      &__title {
+         max-width: 100%;
+      }
+      &__subtitle {
+         max-width: 100%;
+      }
+      &__grid {
+         max-width: 100%;
+      }
+   }
+   .partners {
+      &__container {
+         padding: 0 80px;
+      }
+      &__grid {
+         grid-template-columns: repeat(2,1fr);
+      }
+      &__about {
+         font-size: 18px;
+      }
+      &__item {
+         &>*:not(:last-child) {
+            margin-bottom: 20px;
+         }
+      }
+   }
+   .aboutPrio {
+      &__text {
+         font-size: 16px;
+      }
+   }
+}
+
+@media(max-width:768px) {
+   .contacts {
+      &__grid {
+         grid-template-columns: repeat(1,1fr);
+      }
+      &__link {
+         font-size: 20px;
+      }
+   }
+   .docs {
+      &__title {
+         font-size: 40px;
+      }
+   }
+   .prodMain {
+      &__subtitle {
+         margin-left: 0;
+      }
+      &__container {
+         gap: 0 20px;
+      }
+      &__title {
+         font-size: 40px;
+         margin-bottom: 20px;
+      }
+   }
+   .prodList {
+      &__grid {
+         grid-template-columns: repeat(1,1fr);
+      }
+      &__item {
+         align-items: center;
+      }
+      &__content {
+         max-width: 71%;
+      }
+   }
+   .header{
+      &__text {
+         display: none;
+      }
+      &__nav{
+         &>*:not(:last-child){
+            margin-right: 40px;
+         }
+      }
+   }
+   .main{
+      &__content{
+         max-width: 60%;
+         margin-left: 55px;
+      }
+   }
+   .companies {
+      margin-top: 50px;
+      margin-bottom: 63px;
+   }
+   .geo {
+      &__content{
+         &>*:not(:first-child) {
+            max-width: 70%;
+         }
+      }
+      &__subtitle,&__text {
+         font-size: 20px;
+      }
+      &__button {
+         font-size: 26px;
+      }
+   }
+   .aboutPrio {
+      &__flex {
+         &>*:not(:last-child) {
+            margin-bottom: 0;
+         }
+         gap:50px 0;
+      }
+      &__item {
+         &>*:not(:first-child) {
+            margin-bottom: 10px;
+         }
+         flex-direction: column-reverse;
+      }
+      &__content {
+         max-width: 100%;
+      }
+   }
+   .aboutMain {
+      &__container {
+         padding-left: 50px;
+         padding-right: 70px;
+      }
+      &__placeholder {
+         margin-right: 30px;
+      }
+      &__text {
+         p {
+            font-size: 18px;
+         }
+      }
+   }
+}
+
+@media(max-width:600px) {
+   .contacts {
+      &__content {
+         padding: 22px 55px 35px 30px;
+      }
+   }
+   .docs {
+      &__line {
+         margin-top: 11px;
+         margin-bottom: 35px;
+      }
+   }
+   .prodMain {
+      &__container {
+         padding: 0 30px;
+      }
+   }
+   .prodList {
+      margin-top: 41px;
+      margin-bottom: 61px;
+      &__content {
+         max-width: 100%;
+      }
+      &__grid {
+         gap: 50px 0;
+      }
+      &__title {
+         margin-bottom: 15px;
+         font-size: 26px;
+      }
+      &__about {
+         font-size: 18px;
+      }
+   }
+   .header {
+      &__info {
+         flex-direction: column;
+      }
+      &__logo {
+         margin-bottom: 20px;
+      }
+      &__button {
+         white-space: nowrap;
+      }
+      &__items {
+         margin-right: 20px;
+      }
+      &__nav {
+         gap:20px;
+         &>*:not(:last-child) {
+            margin-right: 0;
+         }
+      }
+   }
+   .headerNav {
+      &__link {
+         text-align: center;
+      }
+   }
+   .geo {
+      &__content {
+         margin-left: 30px;
+      }
+   }
+   .about {
+      &__grid {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: start;
+         gap:40px 0;
+      }
+      &__item {
+         width: 100%;
+      }
+      &__text {
+         font-size: 20px;
+      }
+   }
+   .systems{
+      &__title{
+         font-size: 30px;
+         margin-bottom: 50px;
+      }
+      &__theme {
+         font-size: 23px;
+      }
+      &__logo{
+         margin-right: 20px;
+      }
+      &__grid {
+         gap: 70px 0;
+      }
+   }
+   .footer {
+      &__text {
+         display: none;
+      }
+      &__adress {
+         max-width: 30%;
+      }
+      &__listLinks {
+         margin-right: 20px;
+      }
+   }
+   .aboutMain {
+      &__title {
+         font-size: 40px;
+         margin-bottom: 20px;
+      }
+      &__placeholder {
+         display: none;
+      }
+   }
+   .aboutPrio {
+      &__title {
+         margin-bottom: 50px;
+         font-size: 40px;
+      }
+   }
+   .partners {
+      &__title {
+         margin-left: 0;
+      }
+      &__grid {
+         grid-template-columns: repeat(1,1fr);
+      }
+   }
+}
+
+@media(max-width:480px) {
+   .contacts {
+      &__head {
+         margin-left: 0;
+      }
+      &__title {
+         font-size: 35px;
+      }
+   }
+   .docs {
+      &__title {
+         font-size: 30px;
+      }
+   }
+   .header {
+      &__img {
+         margin-right: 0;
+      }
+      &__contact {
+         flex-direction: column;
+      }
+      &__items {
+         margin-bottom: 10px;
+         margin-right: 0;
+      }
+   }
+   .headerItem {
+      &__link {
+         font-size: 20px;
+      }
+   }
+   .main {
+      &__content {
+         margin-left: 20px;
+         max-width: 80%;
+      }
+   }
+   .about{
+      margin-top: 51px;
+      margin-bottom: 49px;
+      &__container {
+         padding: 0 30px;
+      }
+   }
+   .aboutPrio {
+      margin-top: 46px;
+      margin-bottom: 58px;
+      &__container {
+         padding: 0 20px;
+      }
+   }
+   .partners {
+      padding-top: 30px;
+      padding-bottom: 60px;
+      &__container {
+         padding: 0 20px;
+      }
+   }
+}

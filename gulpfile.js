@@ -78,11 +78,14 @@ function scripts() {
 
 function styles() {
    return src([
-      'app/scss/**/*.scss',
+      'app/scss/**/*.scss', '!app/scss/adaptive.scss'
    ])
       .pipe(autoprefixer({ overrideBrowserslist: ['last 10 version'] }))
+      .pipe(src('app/scss/adaptive.scss'))
+      .pipe(autoprefixer({ overrideBrowserslist: ['last 10 versions'] }))
       .pipe(concat('style.min.css'))
       .pipe(scss({ outputStyle: 'compressed' }))
+
       .pipe(dest('app/css'))
       .pipe(browserSync.stream())
 }

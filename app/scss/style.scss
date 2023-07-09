@@ -5,8 +5,9 @@
 }
 
 .__container {
-   max-width: 1160px;
+   max-width: 1140px;
    margin: 0 auto;
+   padding: 0 20px;
 }
 main {
    flex: 1 1 100%;
@@ -14,6 +15,7 @@ main {
 .image {
    width: 100%;
 }
+
 .svg-analisSys-dims { width: 68px; height: 58px; }
 .svg-autoSys-dims { width: 70px; height: 70px; }
 .svg-dispetSys-dims { width: 68px; height: 60px; }
