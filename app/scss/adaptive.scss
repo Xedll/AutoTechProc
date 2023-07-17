@@ -367,6 +367,19 @@
          font-size: 30px;
       }
    }
+   .systems {
+      &__head {
+         flex-direction: column;
+      }
+      &__logo {
+         margin-right: 0;
+         margin-bottom: 20px;
+      }
+      &__theme {
+         font-size: 20px;
+         text-align: center;
+      }
+   }
    .header {
       &__img {
          margin-right: 0;
